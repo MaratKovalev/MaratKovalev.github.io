@@ -1,0 +1,28 @@
+body{
+	padding: 50px;
+
+}
+
+
+
+.box{
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	background-color: pink;
+	animation-name: move;
+	animation-duration: 2s;
+	
+}
+
+@keyframes move{
+	from{
+		background: red;
+	}
+	to{
+		background: green;
+	}
+}
+
+
+
